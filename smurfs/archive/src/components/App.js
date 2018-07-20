@@ -13,10 +13,8 @@ import AddSmurf from './AddSmurf';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <AddSmurf />
-        <SmurfsList />
-      </div>
+      <div className="App">{/* <AddSmurf />
+        <SmurfsList /> */}</div>
     );
   }
 }

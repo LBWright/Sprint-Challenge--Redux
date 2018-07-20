@@ -71,7 +71,6 @@ export default (state = initialState, action) => {
         ...state,
         error: action.payload,
         requesting: false,
-        error: null
       };
     default:
       return state;
